@@ -1,0 +1,120 @@
+{
+  "status": "passed",
+  "sourceHash": "e59ef87021fe1ee94403c443f0ae0d7767a1467cf0789fc362afaf01c6656007",
+  "checkedAt": "2026-10-28T17:28:58.479Z",
+  "browser": "Codex IAB / localhost:4173",
+  "screenshots": [
+    "evidence/frost-first-win.png",
+    "evidence/frost-final-win.png",
+    "evidence/frost-mobile.png",
+    "evidence/frost-map-mobile.png",
+    "evidence/frost-assessment-mobile.png",
+    "evidence/frost-hero.png",
+    "evidence/frost-desktop.png"
+  ],
+  "desktop": {
+    "width": 1281,
+    "scrollWidth": 1266,
+    "firstMission": {
+      "steps": [
+        "+2",
+        "+2",
+        "보물 방",
+        "출구"
+      ],
+      "won": true,
+      "turns": 4,
+      "energy": 1,
+      "stars": 3
+    },
+    "coldFailure": {
+      "stage": 7,
+      "arrival": -14,
+      "lost": true,
+      "undoRestored": true,
+      "shieldAndDivisionRecovered": true,
+      "stars": 2
+    },
+    "resourceFailure": {
+      "stage": 5,
+      "wrongWarm": true,
+      "noLegalActionLost": true,
+      "undoRestored": true,
+      "supplyThenFlipHalfWon": true
+    },
+    "finalMission": {
+      "stage": 8,
+      "route": [
+        "보급",
+        "×(-1)",
+        "÷2",
+        "보호막",
+        "보물",
+        "−2",
+        "출구"
+      ],
+      "won": true,
+      "turns": 7,
+      "energy": 1,
+      "stars": 3
+    },
+    "savedStarsRestored": true,
+    "actionLogsPreserved": true,
+    "consoleErrors": 0
+  },
+  "mobile": {
+    "width": 390,
+    "scrollWidth": 376,
+    "firstActionFocused": true,
+    "firstMissionWon": true,
+    "controlsAndMapReadable": true,
+    "mathNumbersEnlargedAfterReview": true
+  },
+  "assessment": {
+    "codes": [
+      "9수01-05"
+    ],
+    "independent": true,
+    "hint": true,
+    "retry": true,
+    "persistence": true,
+    "report": true,
+    "export": true,
+    "mobile": true,
+    "tasksSubmitted": 15,
+    "attemptsBeforePrecisionCheck": 16,
+    "counts": [
+      2,
+      3,
+      2,
+      3,
+      3
+    ],
+    "wrongFirstExcluded": true,
+    "hintedCorrectExcluded": true,
+    "teacherReviewSaved": true,
+    "reloadRestored": true,
+    "exportJsonAndBlobLinkVerified": true,
+    "precisionCheck": "최종 exact rational parser에서 2.00000000001 오답, 4/2 정답 및 재시도 분류 실제 확인",
+    "newFormChangesNumbers": true,
+    "syntheticOnly": true,
+    "consoleErrors": 0
+  },
+  "typography": {
+    "status": "passed",
+    "mobileWidth": 390,
+    "title": "Jua",
+    "display": "Do Hyeon",
+    "body": "Gowun Dodum",
+    "selfHosted": true
+  },
+  "assets": {
+    "background": true,
+    "fox": true,
+    "dial": true,
+    "supplies": true,
+    "frostSpirit": true,
+    "treasure": true,
+    "transparentSpritesVisuallyInspected": true
+  }
+}

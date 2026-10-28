@@ -1,0 +1,125 @@
+TAP version 13
+# Subtest: every advertised skill has three varied tasks per form; source pages are present
+ok 1 - every advertised skill has three varied tasks per form; source pages are present
+  ---
+  duration_ms: 5.7088
+  ...
+# Subtest: factor parsing rejects composites, one, malformed powers, code and unbounded powers
+ok 2 - factor parsing rejects composites, one, malformed powers, code and unbounded powers
+  ---
+  duration_ms: 1.2532
+  ...
+# Subtest: GCD and LCM result and factorization process are both required, including coprime pairs
+ok 3 - GCD and LCM result and factorization process are both required, including coprime pairs
+  ---
+  duration_ms: 0.8165
+  ...
+# Subtest: incorrect, assisted, and retry successes cannot produce independent credit
+ok 4 - incorrect, assisted, and retry successes cannot produce independent credit
+  ---
+  duration_ms: 3.431
+  ...
+# Subtest: new form supports remediation; exhausted forms do not mint fresh item ids
+ok 5 - new form supports remediation; exhausted forms do not mint fresh item ids
+  ---
+  duration_ms: 0.3755
+  ...
+# Subtest: independent evidence does not automatically grade explanations or formal completion
+ok 6 - independent evidence does not automatically grade explanations or formal completion
+  ---
+  duration_ms: 1.2065
+  ...
+# Subtest: plots reject swapped coordinates, missing points and extra points; blank is not zero
+ok 7 - plots reject swapped coordinates, missing points and extra points; blank is not zero
+  ---
+  duration_ms: 0.7474
+  ...
+# Subtest: comparison keys agree with independent arithmetic, including negative square roots
+ok 8 - comparison keys agree with independent arithmetic, including negative square roots
+  ---
+  duration_ms: 0.727
+  ...
+# Subtest: 세 폼의 사칙계산·원리 과제와 정답·빈 입력·잘못된 과정
+ok 9 - 세 폼의 사칙계산·원리 과제와 정답·빈 입력·잘못된 과정
+  ---
+  duration_ms: 4.9894
+  ...
+# Subtest: 분수·음수·소수 입력과 0 분모 차단
+ok 10 - 분수·음수·소수 입력과 0 분모 차단
+  ---
+  duration_ms: 0.2236
+  ...
+# Subtest: 첫 오답 재시도·도움은 독립 성공으로 세지 않음
+ok 11 - 첫 오답 재시도·도움은 독립 성공으로 세지 않음
+  ---
+  duration_ms: 2.6181
+  ...
+# Subtest: 출제 정답을 별도 고정 계산으로 교차 확인
+ok 12 - 출제 정답을 별도 고정 계산으로 교차 확인
+  ---
+  duration_ms: 0.3375
+  ...
+# Subtest: 동일 내용을 새 문항으로 오인하지 않는 폼별 출제
+ok 13 - 동일 내용을 새 문항으로 오인하지 않는 폼별 출제
+  ---
+  duration_ms: 1.118
+  ...
+# Subtest: 독립적으로 설계한 8개 승리 경로와 전수 탐색 모두 성공
+ok 14 - 독립적으로 설계한 8개 승리 경로와 전수 탐색 모두 성공
+  ---
+  duration_ms: 34.039
+  ...
+# Subtest: 각 행동의 수학을 engine과 독립인 정수 분자·분모 계산으로 대조
+ok 15 - 각 행동의 수학을 engine과 독립인 정수 분자·분모 계산으로 대조
+  ---
+  duration_ms: 0.6291
+  ...
+# Subtest: 음수 뺄셈, 음수 곱셈, 분수 나눗셈과 0 나누기
+ok 16 - 음수 뺄셈, 음수 곱셈, 분수 나눗셈과 0 나누기
+  ---
+  duration_ms: 0.3605
+  ...
+# Subtest: 초반의 더하기 반복은 후반 에너지·행동 한도에서 실패
+ok 17 - 초반의 더하기 반복은 후반 에너지·행동 한도에서 실패
+  ---
+  duration_ms: 0.2263
+  ...
+# Subtest: 보급 없이 직진하면 에너지 부족, 보급 우회하면 성공
+ok 18 - 보급 없이 직진하면 에너지 부족, 보급 우회하면 성공
+  ---
+  duration_ms: 0.2318
+  ...
+# Subtest: 보호막 준비 비용과 복구 행동의 실제 교환
+ok 19 - 보호막 준비 비용과 복구 행동의 실제 교환
+  ---
+  duration_ms: 0.8679
+  ...
+# Subtest: 문만 맞추던 전략은 진입 냉기로 패배
+ok 20 - 문만 맞추던 전략은 진입 냉기로 패배
+  ---
+  duration_ms: 0.2047
+  ...
+# Subtest: 마지막 탐사의 보호 경로와 무보호 복구 경로를 결합 검증
+ok 21 - 마지막 탐사의 보호 경로와 무보호 복구 경로를 결합 검증
+  ---
+  duration_ms: 0.3996
+  ...
+# Subtest: 되돌리기용 이전 상태가 손상되지 않고 거절은 자원 미차감
+ok 22 - 되돌리기용 이전 상태가 손상되지 않고 거절은 자원 미차감
+  ---
+  duration_ms: 0.4552
+  ...
+# Subtest: 마지막 행동에서 탈출은 성공, 중간에서 소진하면 패배
+ok 23 - 마지막 행동에서 탈출은 성공, 중간에서 소진하면 패배
+  ---
+  duration_ms: 0.4586
+  ...
+1..23
+# tests 23
+# suites 0
+# pass 23
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 167.0487

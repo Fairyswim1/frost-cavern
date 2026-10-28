@@ -1,0 +1,25 @@
+{
+  "id": "frost-cavern",
+  "title": "서리 동굴: 온도 탐험대",
+  "grade": 1,
+  "unit": "2-3~2-6 정수와 유리수의 사칙계산",
+  "category": "수와 연산",
+  "description": "온도 도구로 얼음 문을 열고 눈꽃 보물을 찾아 탈출하세요. 에너지와 행동을 아끼며 보급 경로·연산 순서·냉기 보호를 계획하는 8단계 동굴 탐사입니다.",
+  "tags": [
+    "사칙계산",
+    "경로 전략",
+    "냉기와 보호막"
+  ],
+  "duration": "20–30분",
+  "stageCount": 8,
+  "assets": [
+    "assets/cavern.png",
+    "assets/fox.png",
+    "assets/atlas.png"
+  ],
+  "version": "1.0.0",
+  "createdAt": "2026-10-28T17:18:33.068Z",
+  "deploymentTarget": "vercel",
+  "repository": "https://github.com/Fairyswim1/frost-cavern",
+  "repositoryStatus": "created"
+}

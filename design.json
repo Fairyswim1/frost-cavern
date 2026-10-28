@@ -1,0 +1,305 @@
+{
+  "title": "서리 동굴: 온도 탐험대",
+  "alternatives": [
+    {
+      "idea": "정수 계산 정답을 입력해 문 열기",
+      "decision": "경로·자원 판단이 없어 제외"
+    },
+    {
+      "idea": "온도를 자동으로 맞춰 주는 탐험",
+      "decision": "선택의 수학적 결과를 예측할 필요가 없어 제외"
+    },
+    {
+      "idea": "도구 횟수·에너지·행동과 입구 냉기를 가진 경로 탐사",
+      "decision": "같은 목표 온도에도 연산 순서와 우회 보급, 사전 보호의 비용이 달라 채택"
+    }
+  ],
+  "loop": "경로와 문 온도 확인 → 연산 도구·보급·보호 계획 → 한 행동 실행 → 온도·에너지·냉기 결과 관찰 → 보물 회수와 탈출 → 별 수집 및 재도전",
+  "differenceFromPrevious": "거래 수량을 정하는 시장이 아니라 현재 온도 상태를 사칙연산으로 직접 바꾸어 유향 그래프를 탐사. 방 진입 전 문 조건과 진입 후 안전 범위를 분리한다.",
+  "progression": [
+    {
+      "stage": 1,
+      "title": "얼어붙은 첫 문",
+      "newDecision": "음수에서 양수를 더해 문 통과",
+      "verifiedPlan": [
+        {
+          "kind": "card",
+          "id": "warm"
+        },
+        {
+          "kind": "card",
+          "id": "warm"
+        },
+        {
+          "kind": "move",
+          "to": "relic"
+        },
+        {
+          "kind": "move",
+          "to": "exit"
+        }
+      ],
+      "result": {
+        "turn": 4,
+        "energy": 1,
+        "status": "won"
+      }
+    },
+    {
+      "stage": 2,
+      "title": "차가움을 빼면",
+      "newDecision": "음수 빼기와 제한된 도구 조합",
+      "verifiedPlan": [
+        {
+          "kind": "card",
+          "id": "warm"
+        },
+        {
+          "kind": "card",
+          "id": "sub"
+        },
+        {
+          "kind": "move",
+          "to": "relic"
+        },
+        {
+          "kind": "move",
+          "to": "exit"
+        }
+      ],
+      "result": {
+        "turn": 4,
+        "energy": 0,
+        "status": "won"
+      }
+    },
+    {
+      "stage": 3,
+      "title": "한 번에 뒤집기",
+      "newDecision": "시간과 에너지를 교환하는 곱셈",
+      "verifiedPlan": [
+        {
+          "kind": "card",
+          "id": "flip"
+        },
+        {
+          "kind": "move",
+          "to": "relic"
+        },
+        {
+          "kind": "move",
+          "to": "exit"
+        }
+      ],
+      "result": {
+        "turn": 3,
+        "energy": 0,
+        "status": "won"
+      }
+    },
+    {
+      "stage": 4,
+      "title": "절반의 길",
+      "newDecision": "음수·소수 나눗셈을 포함한 연산 순서",
+      "verifiedPlan": [
+        {
+          "kind": "card",
+          "id": "flip"
+        },
+        {
+          "kind": "card",
+          "id": "half"
+        },
+        {
+          "kind": "move",
+          "to": "relic"
+        },
+        {
+          "kind": "move",
+          "to": "exit"
+        }
+      ],
+      "result": {
+        "turn": 4,
+        "energy": 0,
+        "status": "won"
+      }
+    },
+    {
+      "stage": 5,
+      "title": "멀리 돌아 채우기",
+      "newDecision": "우회 보급과 직진의 자원 선택",
+      "verifiedPlan": [
+        {
+          "kind": "move",
+          "to": "supply"
+        },
+        {
+          "kind": "card",
+          "id": "warm"
+        },
+        {
+          "kind": "card",
+          "id": "flip"
+        },
+        {
+          "kind": "move",
+          "to": "relic"
+        },
+        {
+          "kind": "move",
+          "to": "exit"
+        }
+      ],
+      "result": {
+        "turn": 5,
+        "energy": 1,
+        "status": "won"
+      }
+    },
+    {
+      "stage": 6,
+      "title": "냉기 속 보물",
+      "newDecision": "보호막 준비와 사후 복구의 비용 비교",
+      "verifiedPlan": [
+        {
+          "kind": "shield"
+        },
+        {
+          "kind": "move",
+          "to": "relic"
+        },
+        {
+          "kind": "card",
+          "id": "half"
+        },
+        {
+          "kind": "move",
+          "to": "exit"
+        }
+      ],
+      "result": {
+        "turn": 4,
+        "energy": 1,
+        "status": "won"
+      }
+    },
+    {
+      "stage": 7,
+      "title": "위험한 경계",
+      "newDecision": "문 조건뿐 아니라 도착 후 안전 범위 판단",
+      "verifiedPlan": [
+        {
+          "kind": "shield"
+        },
+        {
+          "kind": "move",
+          "to": "relic"
+        },
+        {
+          "kind": "card",
+          "id": "half"
+        },
+        {
+          "kind": "move",
+          "to": "exit"
+        }
+      ],
+      "result": {
+        "turn": 4,
+        "energy": 1,
+        "status": "won"
+      }
+    },
+    {
+      "stage": 8,
+      "title": "동굴의 마지막 빛",
+      "newDecision": "보급·연산 순서·냉기 보호·행동 제한 결합",
+      "verifiedPlan": [
+        {
+          "kind": "shield"
+        },
+        {
+          "kind": "move",
+          "to": "supply"
+        },
+        {
+          "kind": "card",
+          "id": "flip"
+        },
+        {
+          "kind": "card",
+          "id": "half"
+        },
+        {
+          "kind": "move",
+          "to": "relic"
+        },
+        {
+          "kind": "card",
+          "id": "cool"
+        },
+        {
+          "kind": "move",
+          "to": "exit"
+        }
+      ],
+      "result": {
+        "turn": 7,
+        "energy": 1,
+        "status": "won"
+      }
+    }
+  ],
+  "counterexamples": [
+    {
+      "stage": 3,
+      "earlyStrategy": "더하기만 반복",
+      "why": "에너지 2로는 −6에서 +6을 만들 수 없으며 행동은 3뿐. ×(−1) 선택은 1행동·에너지 2로 통과 온도를 만든다.",
+      "test": "초반의 더하기 반복은 후반 에너지·행동 한도에서 실패"
+    },
+    {
+      "stage": 5,
+      "earlyStrategy": "보물로 곧바로 직진",
+      "why": "초기 에너지 1로 온도를 맞출 수 없다. −4인 채 보급소를 방문하여 +3을 받아야 한다.",
+      "test": "보급 없이 직진하면 에너지 부족, 보급 우회하면 성공"
+    },
+    {
+      "stage": 7,
+      "earlyStrategy": "현재 문 온도만 맞으면 이동",
+      "why": "−8 문을 지나면 냉기 −6으로 −14가 되어 고장. 보호막을 먼저 준비하고 이후 ÷2로 출구를 연다.",
+      "test": "문만 맞추던 전략은 진입 냉기로 패배"
+    }
+  ],
+  "tradeoffs": [
+    {
+      "stage": 6,
+      "protected": {
+        "actions": 4,
+        "energyRemaining": 1
+      },
+      "repairAfterCold": {
+        "actions": 5,
+        "energyRemaining": 0
+      },
+      "test": "보호막 준비 비용과 복구 행동의 실제 교환"
+    },
+    {
+      "stage": 8,
+      "protected": {
+        "actions": 7,
+        "energyRemaining": 1
+      },
+      "repairAfterCold": {
+        "actions": 8,
+        "energyRemaining": 0
+      },
+      "test": "마지막 탐사의 보호 경로와 무보호 복구 경로를 결합 검증"
+    }
+  ],
+  "failureRecovery": "온도 범위·행동 소진·더 이상 가능한 행동 없음은 패배. 이전 상태 전체를 되돌리거나 재시작. 도움·되돌리기를 로그와 별 보상에 반영.",
+  "mathematicalScope": "정수와 간단한 유리수의 사칙계산. 연속 버튼은 이전 결과에 다음 연산을 적용하므로 하나의 식의 우선순위와 구분한다. 판타지 장치이며 섭씨 온도의 실제 물리 제어를 모델링한다고 주장하지 않는다.",
+  "funHypothesis": "짧은 탐사에서 여러 연산이 같은 문을 열어도 행동·보급·냉기 결과가 달라 경로 재계획과 보상 개선 동기가 생긴다.",
+  "studentPlaytest": false,
+  "assessmentSeparate": true
+}

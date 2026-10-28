@@ -1,0 +1,92 @@
+{
+  "references": [
+    {
+      "filename": "미래엔_중학교수학1_교과서_2-3_정수와유리수의덧셈.pdf",
+      "sha256": "d20e7cca5cdc1bd908806b3b74c12f15c8152ef505800ee7cbba48d92c849757",
+      "pdfPages": [
+        1,
+        2,
+        3,
+        4,
+        7
+      ]
+    },
+    {
+      "filename": "미래엔_중학교수학1_교과서_2-4_정수와유리수의뺄셈.pdf",
+      "sha256": "3345a4712e9ec7b7ab258761ece4fd4ef4af3fb2fd389b779182c6b7543713f3",
+      "pdfPages": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "filename": "미래엔_중학교수학1_교과서_2-5_정수와유리수의곱셈.pdf",
+      "sha256": "2583119cff38620793d0b9351e5bf4410377e32c70cac61421a973338db58ca0",
+      "pdfPages": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "filename": "미래엔_중학교수학1_교과서_2-6_정수와유리수의나눗셈.pdf",
+      "sha256": "c38251a9a32c11f7b95e8838f7becd3d6bcb4e73a90733889b4229344e547f25",
+      "pdfPages": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "visualReview": true,
+  "visualReviewFiles": [
+    "curriculum/frost-subtraction-1.png",
+    "curriculum/frost-division-03.png"
+  ],
+  "printedPages": {
+    "addition": [
+      42,
+      43,
+      44,
+      45,
+      48
+    ],
+    "subtraction": [
+      49,
+      50,
+      51
+    ],
+    "multiplication": [
+      54,
+      55,
+      56,
+      57
+    ],
+    "division": [
+      61,
+      62,
+      63,
+      64
+    ]
+  },
+  "definitions": [
+    "부호와 절댓값을 이용한 덧셈",
+    "뺄셈은 반대 부호 수의 덧셈",
+    "곱셈 부호 규칙",
+    "나눗셈은 0이 아닌 수의 역수를 곱하기"
+  ],
+  "misconceptions": [
+    "음수를 빼면 항상 작아진다는 생각",
+    "나누면 무조건 작아진다는 생각",
+    "곱셈을 반복된 덧셈으로만 해석",
+    "게임에서 누른 순서를 한 식의 연산 우선순위와 혼동"
+  ],
+  "prerequisites": [
+    "음수·양수·절댓값",
+    "분수 통분과 약분"
+  ],
+  "copyright": "원문 PDF·추출문·교과서 렌더는 내부에만 보존. 공개·게임 저장소에 포함하지 않음."
+}

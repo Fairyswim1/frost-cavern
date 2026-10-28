@@ -1,0 +1,21 @@
+{
+  "tool": "image_gen built-in",
+  "generationCalls": 3,
+  "assets": [
+    {
+      "file": "assets/cavern.png",
+      "role": "background",
+      "prompt": "Use case: stylized-concept. Production background for a Korean middle-school fantasy strategy game, Frost Cavern. Wide landscape illustration of a glowing glacial cave with branching icy bridges over a turquoise chasm, luminous amber lanterns and violet ice crystals, distant warm refuge. Cozy hand-painted adventure game, premium storybook art, deep indigo, turquoise ice, warm gold highlights, detailed icy arches framing left and right, open quieter central area for a coded game map overlay. No characters, no text, no letters, no numbers, no UI, no watermark. Landscape 1536x1024."
+    },
+    {
+      "file": "assets/fox.png",
+      "role": "character",
+      "prompt": "Use case: stylized-concept. One game character sprite for Frost Cavern, a small adorable arctic fox explorer standing upright in a teal expedition coat, warm orange scarf, brass temperature-control backpack, holding a luminous little lantern. Full body three-quarter view facing right, confident friendly expression, all paws and tail visible, rounded hand-painted fantasy adventure game art matching deep blue glacial cave and golden lamps. Centered isolated cutout, generous transparent margins. No text, letters, digits, symbols, scenery, watermark or UI. Actual transparent background."
+    },
+    {
+      "file": "assets/atlas.png",
+      "role": "interactive-prop/obstacle/reward",
+      "prompt": "Use case: stylized-concept. Production game prop sprite atlas for Frost Cavern. A square image divided into a strict 2 by 2 grid of four separate isolated objects on true transparent background. Top left: ornate brass handheld temperature dial device with glowing cyan crystal, blank face without any markings. Top right: cozy canvas supply pack overflowing with amber battery crystals. Bottom left: mischievous icy wind spirit, swirling blue-white frost with readable angry eyes, compact silhouette. Bottom right: precious golden snowflake medal with violet crystal heart, reward treasure. Same hand-painted rounded fantasy adventure style, blue turquoise amber palette, detailed clear silhouettes readable as 64px icons. Each object completely inside its own quadrant, centered, with generous 15 percent empty margins, no overlapping across quadrants. No text, letters, numbers, UI borders, grid lines, watermark, shadow backdrop."
+    }
+  ]
+}
