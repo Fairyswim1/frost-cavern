@@ -1,7 +1,7 @@
 {
   "status": "passed",
-  "sourceHash": "7c3039eb153db09319061586428bb10267299e4827aab79540076462e7c1ab3c",
-  "checkedAt": "2026-10-29T05:59:26.943Z",
+  "sourceHash": "4fd5a30cc6d9199a855371e4e144691aa2fcd8410150f51d5c2f69825e6d24ec",
+  "checkedAt": "2026-10-29T06:42:50.846Z",
   "browser": "Codex IAB / localhost:4173",
   "screenshots": [
     "evidence/frost-first-win.png",
@@ -11,7 +11,8 @@
     "evidence/frost-assessment-mobile.png",
     "evidence/frost-hero.png",
     "evidence/frost-desktop.png",
-    "evidence/home-mobile.png"
+    "evidence/home-mobile.png",
+    "evidence/frost-cavern-sound-mobile.png"
   ],
   "desktop": {
     "width": 1281,
@@ -119,8 +120,8 @@
     "transparentSpritesVisuallyInspected": true
   },
   "previousReview": {
-    "sourceHash": "e59ef87021fe1ee94403c443f0ae0d7767a1467cf0789fc362afaf01c6656007",
-    "checkedAt": "2026-10-28T17:28:58.479Z"
+    "sourceHash": "7c3039eb153db09319061586428bb10267299e4827aab79540076462e7c1ab3c",
+    "checkedAt": "2026-10-29T05:59:26.943Z"
   },
   "homeNavigation": {
     "checkedAt": "2026-10-29T05:59:26.943Z",
@@ -131,5 +132,24 @@
     "mobileLinkWithinViewport": true,
     "screenshot": "evidence/home-mobile.png",
     "scope": "Home navigation only; game and assessment logic unchanged"
+  },
+  "soundRevision": {
+    "status": "passed",
+    "browserOutputSignal": true,
+    "preferenceAfterReload": true,
+    "mute": true,
+    "mobileWidth": 390,
+    "overflowX": false,
+    "scope": "Real WebAudio analyser samples verified; device speaker volume is outside browser verification."
+  },
+  "assessmentReuse": {
+    "reason": "Assessment question, scoring, storage, export and teacher review logic unchanged. Prior actual assessment evidence retained; zero-forest display title only renamed.",
+    "previousSourceHash": "7c3039eb153db09319061586428bb10267299e4827aab79540076462e7c1ab3c"
+  },
+  "usabilityRevision": {
+    "status": "passed",
+    "checks": [
+      "First exploration warmed twice, treasure and exit, three-star win"
+    ]
   }
 }

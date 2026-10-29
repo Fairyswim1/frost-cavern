@@ -17,7 +17,7 @@
     "assets/fox.png",
     "assets/atlas.png"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "createdAt": "2026-10-28T17:18:33.068Z",
   "deploymentTarget": "vercel",
   "repository": "https://github.com/Fairyswim1/frost-cavern",
