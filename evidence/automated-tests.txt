@@ -2,149 +2,164 @@ TAP version 13
 # Subtest: every advertised skill has three varied tasks per form; source pages are present
 ok 1 - every advertised skill has three varied tasks per form; source pages are present
   ---
-  duration_ms: 8.0396
+  duration_ms: 6.0648
   ...
 # Subtest: factor parsing rejects composites, one, malformed powers, code and unbounded powers
 ok 2 - factor parsing rejects composites, one, malformed powers, code and unbounded powers
   ---
-  duration_ms: 0.8415
+  duration_ms: 0.7813
   ...
 # Subtest: GCD and LCM result and factorization process are both required, including coprime pairs
 ok 3 - GCD and LCM result and factorization process are both required, including coprime pairs
   ---
-  duration_ms: 0.5773
+  duration_ms: 0.4966
   ...
 # Subtest: incorrect, assisted, and retry successes cannot produce independent credit
 ok 4 - incorrect, assisted, and retry successes cannot produce independent credit
   ---
-  duration_ms: 2.5816
+  duration_ms: 2.4478
   ...
 # Subtest: new form supports remediation; exhausted forms do not mint fresh item ids
 ok 5 - new form supports remediation; exhausted forms do not mint fresh item ids
   ---
-  duration_ms: 0.24
+  duration_ms: 0.2379
   ...
 # Subtest: independent evidence does not automatically grade explanations or formal completion
 ok 6 - independent evidence does not automatically grade explanations or formal completion
   ---
-  duration_ms: 0.7617
+  duration_ms: 0.6972
   ...
 # Subtest: plots reject swapped coordinates, missing points and extra points; blank is not zero
 ok 7 - plots reject swapped coordinates, missing points and extra points; blank is not zero
   ---
-  duration_ms: 0.4558
+  duration_ms: 0.4426
   ...
 # Subtest: comparison keys agree with independent arithmetic, including negative square roots
 ok 8 - comparison keys agree with independent arithmetic, including negative square roots
   ---
-  duration_ms: 0.6946
+  duration_ms: 0.4315
   ...
 # Subtest: 세 폼의 사칙계산·원리 과제와 정답·빈 입력·잘못된 과정
 ok 9 - 세 폼의 사칙계산·원리 과제와 정답·빈 입력·잘못된 과정
   ---
-  duration_ms: 5.3717
+  duration_ms: 5.0135
   ...
 # Subtest: 분수·음수·소수 입력과 0 분모 차단
 ok 10 - 분수·음수·소수 입력과 0 분모 차단
   ---
-  duration_ms: 0.3513
+  duration_ms: 0.2213
   ...
 # Subtest: 첫 오답 재시도·도움은 독립 성공으로 세지 않음
 ok 11 - 첫 오답 재시도·도움은 독립 성공으로 세지 않음
   ---
-  duration_ms: 3.988
+  duration_ms: 2.4823
   ...
 # Subtest: 출제 정답을 별도 고정 계산으로 교차 확인
 ok 12 - 출제 정답을 별도 고정 계산으로 교차 확인
   ---
-  duration_ms: 0.7044
+  duration_ms: 0.3201
   ...
 # Subtest: 동일 내용을 새 문항으로 오인하지 않는 폼별 출제
 ok 13 - 동일 내용을 새 문항으로 오인하지 않는 폼별 출제
   ---
-  duration_ms: 1.5071
+  duration_ms: 1.1922
   ...
 # Subtest: 독립적으로 설계한 8개 승리 경로와 전수 탐색 모두 성공
 ok 14 - 독립적으로 설계한 8개 승리 경로와 전수 탐색 모두 성공
   ---
-  duration_ms: 36.2328
+  duration_ms: 33.4715
   ...
 # Subtest: 각 행동의 수학을 engine과 독립인 정수 분자·분모 계산으로 대조
 ok 15 - 각 행동의 수학을 engine과 독립인 정수 분자·분모 계산으로 대조
   ---
-  duration_ms: 0.6191
+  duration_ms: 0.6242
   ...
 # Subtest: 음수 뺄셈, 음수 곱셈, 분수 나눗셈과 0 나누기
 ok 16 - 음수 뺄셈, 음수 곱셈, 분수 나눗셈과 0 나누기
   ---
-  duration_ms: 0.3443
+  duration_ms: 0.3429
   ...
 # Subtest: 초반의 더하기 반복은 후반 에너지·행동 한도에서 실패
 ok 17 - 초반의 더하기 반복은 후반 에너지·행동 한도에서 실패
   ---
-  duration_ms: 0.2235
+  duration_ms: 0.224
   ...
 # Subtest: 보급 없이 직진하면 에너지 부족, 보급 우회하면 성공
 ok 18 - 보급 없이 직진하면 에너지 부족, 보급 우회하면 성공
   ---
-  duration_ms: 0.2226
+  duration_ms: 0.2277
   ...
 # Subtest: 보호막 준비 비용과 복구 행동의 실제 교환
 ok 19 - 보호막 준비 비용과 복구 행동의 실제 교환
   ---
-  duration_ms: 0.8165
+  duration_ms: 0.8411
   ...
 # Subtest: 문만 맞추던 전략은 진입 냉기로 패배
 ok 20 - 문만 맞추던 전략은 진입 냉기로 패배
   ---
-  duration_ms: 0.1924
+  duration_ms: 0.1928
   ...
 # Subtest: 마지막 탐사의 보호 경로와 무보호 복구 경로를 결합 검증
 ok 21 - 마지막 탐사의 보호 경로와 무보호 복구 경로를 결합 검증
   ---
-  duration_ms: 0.3889
+  duration_ms: 0.3906
   ...
 # Subtest: 되돌리기용 이전 상태가 손상되지 않고 거절은 자원 미차감
 ok 22 - 되돌리기용 이전 상태가 손상되지 않고 거절은 자원 미차감
   ---
-  duration_ms: 0.4512
+  duration_ms: 0.471
   ...
 # Subtest: 마지막 행동에서 탈출은 성공, 중간에서 소진하면 패배
 ok 23 - 마지막 행동에서 탈출은 성공, 중간에서 소진하면 패배
   ---
-  duration_ms: 0.4449
+  duration_ms: 0.4644
   ...
 # Subtest: muted effects never start; enable, play and mute stop active oscillators
 ok 24 - muted effects never start; enable, play and mute stop active oscillators
   ---
-  duration_ms: 2.4917
+  duration_ms: 1.6809
   ...
 # Subtest: preference survives new controller and test checks a generated waveform
 ok 25 - preference survives new controller and test checks a generated waveform
   ---
-  duration_ms: 76.8573
+  duration_ms: 86.3353
   ...
 # Subtest: blocked playback returns an error instead of falsely reporting enabled sound
 ok 26 - blocked playback returns an error instead of falsely reporting enabled sound
   ---
-  duration_ms: 0.5186
+  duration_ms: 0.5296
   ...
 # Subtest: muting while resume is pending cannot re-enable playback
 ok 27 - muting while resume is pending cannot re-enable playback
   ---
-  duration_ms: 0.28
+  duration_ms: 0.2698
   ...
 # Subtest: unavailable storage does not prevent sound playback
 ok 28 - unavailable storage does not prevent sound playback
   ---
-  duration_ms: 0.2938
+  duration_ms: 0.2964
   ...
-1..28
-# tests 28
+# Subtest: first visit uses isolated practice state and leaves existing progress untouched
+ok 29 - first visit uses isolated practice state and leaves existing progress untouched
+  ---
+  duration_ms: 3.0415
+  ...
+# Subtest: skip and replay are per game and replay cannot overwrite learning records
+ok 30 - skip and replay are per game and replay cannot overwrite learning records
+  ---
+  duration_ms: 0.4562
+  ...
+# Subtest: storage denied can still skip without a redirect loop
+ok 31 - storage denied can still skip without a redirect loop
+  ---
+  duration_ms: 0.248
+  ...
+1..31
+# tests 31
 # suites 0
-# pass 28
+# pass 31
 # fail 0
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 212.5214
+# duration_ms 228.4587

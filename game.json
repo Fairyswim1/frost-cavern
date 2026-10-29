@@ -17,9 +17,18 @@
     "assets/fox.png",
     "assets/atlas.png"
   ],
-  "version": "1.0.1",
+  "version": "1.0.2",
   "createdAt": "2026-10-28T17:18:33.068Z",
   "deploymentTarget": "vercel",
   "repository": "https://github.com/Fairyswim1/frost-cavern",
-  "repositoryStatus": "created"
+  "repositoryStatus": "created",
+  "tutorial": {
+    "version": 1,
+    "firstVisit": true,
+    "replay": true,
+    "skippable": true,
+    "steps": 7,
+    "practiceProgress": "isolated-memory",
+    "style": "spotlight"
+  }
 }

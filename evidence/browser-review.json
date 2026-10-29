@@ -1,7 +1,7 @@
 {
   "status": "passed",
-  "sourceHash": "4fd5a30cc6d9199a855371e4e144691aa2fcd8410150f51d5c2f69825e6d24ec",
-  "checkedAt": "2026-10-29T06:42:50.846Z",
+  "sourceHash": "1f72da876af629d5648cfc5aaaa9d8a891be7649aec82c46d429a9db2296e400",
+  "checkedAt": "2026-10-29T07:09:40.927Z",
   "browser": "Codex IAB / localhost:4173",
   "screenshots": [
     "evidence/frost-first-win.png",
@@ -12,7 +12,9 @@
     "evidence/frost-hero.png",
     "evidence/frost-desktop.png",
     "evidence/home-mobile.png",
-    "evidence/frost-cavern-sound-mobile.png"
+    "evidence/frost-cavern-sound-mobile.png",
+    "evidence/tutorial-desktop.png",
+    "evidence/tutorial-mobile.png"
   ],
   "desktop": {
     "width": 1281,
@@ -120,8 +122,8 @@
     "transparentSpritesVisuallyInspected": true
   },
   "previousReview": {
-    "sourceHash": "7c3039eb153db09319061586428bb10267299e4827aab79540076462e7c1ab3c",
-    "checkedAt": "2026-10-29T05:59:26.943Z"
+    "sourceHash": "4fd5a30cc6d9199a855371e4e144691aa2fcd8410150f51d5c2f69825e6d24ec",
+    "checkedAt": "2026-10-29T06:42:50.846Z"
   },
   "homeNavigation": {
     "checkedAt": "2026-10-29T05:59:26.943Z",
@@ -143,13 +145,33 @@
     "scope": "Real WebAudio analyser samples verified; device speaker volume is outside browser verification."
   },
   "assessmentReuse": {
-    "reason": "Assessment question, scoring, storage, export and teacher review logic unchanged. Prior actual assessment evidence retained; zero-forest display title only renamed.",
-    "previousSourceHash": "7c3039eb153db09319061586428bb10267299e4827aab79540076462e7c1ab3c"
+    "reason": "Assessment application is unchanged; tutorial storage is isolated memory. Prior independent assessment evidence retained.",
+    "previousSourceHash": "4fd5a30cc6d9199a855371e4e144691aa2fcd8410150f51d5c2f69825e6d24ec"
   },
   "usabilityRevision": {
     "status": "passed",
     "checks": [
       "First exploration warmed twice, treasure and exit, three-star win"
     ]
+  },
+  "tutorialRevision": {
+    "status": "passed",
+    "firstVisit": true,
+    "actualActionsToFirstWin": true,
+    "skip": true,
+    "replay": true,
+    "noAutomaticReplayAfterSeen": true,
+    "desktopTargetUncovered": true,
+    "mobileWidth": 390,
+    "mobileTargetUncovered": true,
+    "recordIsolation": "Unit tests prove existing game and assessment keys untouched; Number Forest in-progress stage 6 target and undo restored after replay/skip; Starlight guided coordinates have zero independent successes.",
+    "keyboard": "Shared Tab/Shift+Tab focus routing and Escape implemented; actual Tab into stone and Escape restoration verified in Number Forest.",
+    "negativeChecks": [
+      "Moon wrong part length does not advance",
+      "Cloud wrong representative value does not advance",
+      "Cloud Enter on quantity cannot craft before craft step",
+      "Frost repeated click cannot skip temperature lesson"
+    ],
+    "browserConsoleErrors": 0
   }
 }

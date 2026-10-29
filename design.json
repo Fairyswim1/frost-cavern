@@ -301,5 +301,15 @@
   "mathematicalScope": "정수와 간단한 유리수의 사칙계산. 연속 버튼은 이전 결과에 다음 연산을 적용하므로 하나의 식의 우선순위와 구분한다. 판타지 장치이며 섭씨 온도의 실제 물리 제어를 모델링한다고 주장하지 않는다.",
   "funHypothesis": "짧은 탐사에서 여러 연산이 같은 문을 열어도 행동·보급·냉기 결과가 달라 경로 재계획과 보상 개선 동기가 생긴다.",
   "studentPlaytest": false,
-  "assessmentSeparate": true
+  "assessmentSeparate": true,
+  "onboarding": {
+    "version": 1,
+    "firstVisit": "자동 소개 → 직접 조작하는 화면 집중 안내",
+    "steps": 7,
+    "completion": "첫 임무 성공 후 일반 게임으로 복귀",
+    "persistence": "게임별 안내 완료/건너뛰기 상태만 보관. 연습 점수·응답은 메모리에서만 처리하여 기존 진행/학습 기록 보존.",
+    "accessibility": "현재 대상과 안내 버튼으로 키보드 이동, Escape로 나가기, 390px에서 대상과 설명 카드 분리",
+    "replay": "상단 처음 안내 버튼",
+    "failureRecovery": "오답 시 다음 비활성, 연습 다시/건너뛰기 제공"
+  }
 }
