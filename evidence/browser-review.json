@@ -1,7 +1,7 @@
 {
   "status": "passed",
-  "sourceHash": "e59ef87021fe1ee94403c443f0ae0d7767a1467cf0789fc362afaf01c6656007",
-  "checkedAt": "2026-10-28T17:28:58.479Z",
+  "sourceHash": "7c3039eb153db09319061586428bb10267299e4827aab79540076462e7c1ab3c",
+  "checkedAt": "2026-10-29T05:59:26.943Z",
   "browser": "Codex IAB / localhost:4173",
   "screenshots": [
     "evidence/frost-first-win.png",
@@ -10,7 +10,8 @@
     "evidence/frost-map-mobile.png",
     "evidence/frost-assessment-mobile.png",
     "evidence/frost-hero.png",
-    "evidence/frost-desktop.png"
+    "evidence/frost-desktop.png",
+    "evidence/home-mobile.png"
   ],
   "desktop": {
     "width": 1281,
@@ -116,5 +117,19 @@
     "frostSpirit": true,
     "treasure": true,
     "transparentSpritesVisuallyInspected": true
+  },
+  "previousReview": {
+    "sourceHash": "e59ef87021fe1ee94403c443f0ae0d7767a1467cf0789fc362afaf01c6656007",
+    "checkedAt": "2026-10-28T17:28:58.479Z"
+  },
+  "homeNavigation": {
+    "checkedAt": "2026-10-29T05:59:26.943Z",
+    "status": "passed",
+    "destination": "https://math-game-arcade.vercel.app/",
+    "sameTabClickVerified": true,
+    "mobileWidth": 390,
+    "mobileLinkWithinViewport": true,
+    "screenshot": "evidence/home-mobile.png",
+    "scope": "Home navigation only; game and assessment logic unchanged"
   }
 }
