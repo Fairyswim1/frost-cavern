@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "sourceHash": "6733f992b45437931a032aa3a4746f8d2653c240c4fe0cdd9e65fcf43819fd81",
+  "sourceHash": "6269d2b44747231662499814bfa74512a4ad009a6d1b70d41ba8704e5505cc64",
   "checkedAt": "2026-10-29T08:36:52.902Z",
   "browser": "Codex IAB / localhost:4173",
   "screenshots": [
@@ -208,5 +208,11 @@
   },
   "checks": [
     "New generated controls and mobile layout verified; game states and tutorial replay checked."
-  ]
+  ],
+  "provenanceRemoval": {
+    "checkedAt": "2026-10-29T08:54:36.641Z",
+    "status": "passed",
+    "method": "Actual browser: assessment loads, provenance block absent, no JS errors; Number Bloom answer submit passed",
+    "retainedEvidence": "Prior gameplay, assessment and typography tests unchanged except removed footer rendering"
+  }
 }
