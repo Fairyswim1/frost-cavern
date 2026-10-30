@@ -1,7 +1,7 @@
 {
   "status": "passed",
-  "sourceHash": "6269d2b44747231662499814bfa74512a4ad009a6d1b70d41ba8704e5505cc64",
-  "checkedAt": "2026-10-29T08:36:52.902Z",
+  "sourceHash": "f567d41618bb9173bf1c521956c330a4789267c11e1df0fe9f6ed358b7dbfbcd",
+  "checkedAt": "2026-10-30T01:16:29.098Z",
   "browser": "Codex IAB / localhost:4173",
   "screenshots": [
     "evidence/frost-first-win.png",
@@ -17,7 +17,8 @@
     "evidence/tutorial-mobile.png",
     "evidence/frost-refresh-desktop.png",
     "evidence/frost-refresh-mobile.png",
-    "evidence/frost-refresh-tutorial.png"
+    "evidence/frost-refresh-tutorial.png",
+    "evidence/student-copy.png"
   ],
   "desktop": {
     "width": 1281,
@@ -214,5 +215,14 @@
     "status": "passed",
     "method": "Actual browser: assessment loads, provenance block absent, no JS errors; Number Bloom answer submit passed",
     "retainedEvidence": "Prior gameplay, assessment and typography tests unchanged except removed footer rendering"
+  },
+  "previousCopyReview": {
+    "checkedAt": "2026-10-29T08:36:52.902Z",
+    "sourceHash": "6269d2b44747231662499814bfa74512a4ad009a6d1b70d41ba8704e5505cc64"
+  },
+  "studentCopyRevision": {
+    "reportOpened": true,
+    "proceduralExplanationRemoved": true,
+    "scope": "Copy-only: gameplay and assessment logic unchanged. Prior gameplay/assessment evidence retained; current tests and build passed."
   }
 }
