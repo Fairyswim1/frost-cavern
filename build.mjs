@@ -5,3 +5,6 @@ for(const d of ['assets','theme','assessment'])await cp(d,'dist/'+d,{recursive:t
 let commit=process.env.VERCEL_GIT_COMMIT_SHA||null;if(!commit)try{commit=execFileSync('git',['rev-parse','HEAD'],{encoding:'utf8',stdio:['ignore','pipe','ignore']}).trim();}catch{}
 await writeFile('dist/build-info.json',JSON.stringify({id:'frost-cavern',commit}));
 console.log('Built standalone Vercel files');
+
+for(const f of ['math-display.mjs','math-display.css','math-setup.mjs'])await copyFile(f,'dist/'+f);
+await cp('vendor','dist/vendor',{recursive:true});

@@ -1,0 +1,251 @@
+{
+  "status": "passed",
+  "sourceHash": "e3151897631e4b6411b45f68ed1760ac5e987aa26a48f8fca3ab8bdda84081a5",
+  "checkedAt": "2026-10-30T06:17:06.717Z",
+  "browser": "Codex IAB / localhost:4173",
+  "screenshots": [
+    "evidence/frost-first-win.png",
+    "evidence/frost-final-win.png",
+    "evidence/frost-mobile.png",
+    "evidence/frost-map-mobile.png",
+    "evidence/frost-assessment-mobile.png",
+    "evidence/frost-hero.png",
+    "evidence/frost-desktop.png",
+    "evidence/home-mobile.png",
+    "evidence/frost-cavern-sound-mobile.png",
+    "evidence/tutorial-desktop.png",
+    "evidence/tutorial-mobile.png",
+    "evidence/frost-refresh-desktop.png",
+    "evidence/frost-refresh-mobile.png",
+    "evidence/frost-refresh-tutorial.png",
+    "evidence/student-copy.png"
+  ],
+  "desktop": {
+    "width": 1281,
+    "scrollWidth": 1266,
+    "firstMission": {
+      "steps": [
+        "+2",
+        "+2",
+        "보물 방",
+        "출구"
+      ],
+      "won": true,
+      "turns": 4,
+      "energy": 1,
+      "stars": 3
+    },
+    "coldFailure": {
+      "stage": 7,
+      "arrival": -14,
+      "lost": true,
+      "undoRestored": true,
+      "shieldAndDivisionRecovered": true,
+      "stars": 2
+    },
+    "resourceFailure": {
+      "stage": 5,
+      "wrongWarm": true,
+      "noLegalActionLost": true,
+      "undoRestored": true,
+      "supplyThenFlipHalfWon": true
+    },
+    "finalMission": {
+      "stage": 8,
+      "route": [
+        "보급",
+        "×(-1)",
+        "÷2",
+        "보호막",
+        "보물",
+        "−2",
+        "출구"
+      ],
+      "won": true,
+      "turns": 7,
+      "energy": 1,
+      "stars": 3
+    },
+    "savedStarsRestored": true,
+    "actionLogsPreserved": true,
+    "consoleErrors": 0
+  },
+  "mobile": {
+    "width": 390,
+    "scrollWidth": 376,
+    "firstActionFocused": true,
+    "firstMissionWon": true,
+    "controlsAndMapReadable": true,
+    "mathNumbersEnlargedAfterReview": true
+  },
+  "assessment": {
+    "codes": [
+      "9수01-05"
+    ],
+    "independent": true,
+    "hint": true,
+    "retry": true,
+    "persistence": true,
+    "report": true,
+    "export": false,
+    "mobile": true,
+    "tasksSubmitted": 15,
+    "attemptsBeforePrecisionCheck": 16,
+    "counts": [
+      2,
+      3,
+      2,
+      3,
+      3
+    ],
+    "wrongFirstExcluded": true,
+    "hintedCorrectExcluded": true,
+    "teacherReviewSaved": true,
+    "reloadRestored": true,
+    "exportJsonAndBlobLinkVerified": true,
+    "precisionCheck": "최종 exact rational parser에서 2.00000000001 오답, 4/2 정답 및 재시도 분류 실제 확인",
+    "newFormChangesNumbers": true,
+    "syntheticOnly": true,
+    "consoleErrors": 0,
+    "jsonUiRemoved": true
+  },
+  "typography": {
+    "status": "passed",
+    "mobileWidth": 390,
+    "title": "Jua",
+    "display": "Do Hyeon",
+    "body": "Gowun Dodum",
+    "selfHosted": true
+  },
+  "assets": {
+    "background": true,
+    "fox": true,
+    "dial": true,
+    "supplies": true,
+    "frostSpirit": true,
+    "treasure": true,
+    "transparentSpritesVisuallyInspected": true
+  },
+  "previousReview": {
+    "checkedAt": "2026-10-29T07:09:40.927Z",
+    "sourceHash": "1f72da876af629d5648cfc5aaaa9d8a891be7649aec82c46d429a9db2296e400"
+  },
+  "homeNavigation": {
+    "checkedAt": "2026-10-29T05:59:26.943Z",
+    "status": "passed",
+    "destination": "https://math-game-arcade.vercel.app/",
+    "sameTabClickVerified": true,
+    "mobileWidth": 390,
+    "mobileLinkWithinViewport": true,
+    "screenshot": "evidence/home-mobile.png",
+    "scope": "Home navigation only; game and assessment logic unchanged"
+  },
+  "soundRevision": {
+    "status": "passed",
+    "browserOutputSignal": true,
+    "preferenceAfterReload": true,
+    "mute": true,
+    "mobileWidth": 390,
+    "overflowX": false,
+    "scope": "Real WebAudio analyser samples verified; device speaker volume is outside browser verification."
+  },
+  "assessmentReuse": {
+    "reason": "Assessment application is unchanged; tutorial storage is isolated memory. Prior independent assessment evidence retained.",
+    "previousSourceHash": "4fd5a30cc6d9199a855371e4e144691aa2fcd8410150f51d5c2f69825e6d24ec"
+  },
+  "usabilityRevision": {
+    "status": "passed",
+    "checks": [
+      "First exploration warmed twice, treasure and exit, three-star win"
+    ]
+  },
+  "tutorialRevision": {
+    "status": "passed",
+    "firstVisit": true,
+    "actualActionsToFirstWin": true,
+    "skip": true,
+    "replay": true,
+    "noAutomaticReplayAfterSeen": true,
+    "desktopTargetUncovered": true,
+    "mobileWidth": 390,
+    "mobileTargetUncovered": true,
+    "recordIsolation": "Unit tests prove existing game and assessment keys untouched; Number Forest in-progress stage 6 target and undo restored after replay/skip; Starlight guided coordinates have zero independent successes.",
+    "keyboard": "Shared Tab/Shift+Tab focus routing and Escape implemented; actual Tab into stone and Escape restoration verified in Number Forest.",
+    "negativeChecks": [
+      "Moon wrong part length does not advance",
+      "Cloud wrong representative value does not advance",
+      "Cloud Enter on quantity cannot craft before craft step",
+      "Frost repeated click cannot skip temperature lesson"
+    ],
+    "browserConsoleErrors": 0
+  },
+  "qualityRefresh": {
+    "status": "passed",
+    "stages": 12,
+    "newStageUI": [
+      {
+        "stage": 9,
+        "result": "보물 회수 성공! ★★★\n\n4행동 · 에너지 0 남김\n별은 탐사 보상이며 수학 이수 판정이 아니에요.\n\n다음 탐사"
+      },
+      {
+        "stage": 10,
+        "result": "보물 회수 성공! ★★★\n\n5행동 · 에너지 3 남김\n별은 탐사 보상이며 수학 이수 판정이 아니에요.\n\n다음 탐사"
+      },
+      {
+        "stage": 11,
+        "result": "보물 회수 성공! ★★★\n\n5행동 · 에너지 2 남김\n별은 탐사 보상이며 수학 이수 판정이 아니에요.\n\n다음 탐사"
+      },
+      {
+        "stage": 12,
+        "result": "보물 회수 성공! ★★★\n\n9행동 · 에너지 0 남김\n별은 탐사 보상이며 수학 이수 판정이 아니에요.\n\n새로운 수로 수학 확인하기"
+      }
+    ],
+    "desktop": 1280,
+    "mobile": 390,
+    "mobileScrollWidth": 376,
+    "generatedButtons": "control-frame-v2.png",
+    "tutorial": "Replay introduction and first spotlight visually verified at 390px; guided gameplay/state logic unchanged",
+    "assessmentReuse": "Assessment files unchanged, previous browser checks retained; all automated tests rerun",
+    "consoleErrors": 0
+  },
+  "checks": [
+    "New generated controls and mobile layout verified; game states and tutorial replay checked."
+  ],
+  "provenanceRemoval": {
+    "checkedAt": "2026-10-29T08:54:36.641Z",
+    "status": "passed",
+    "method": "Actual browser: assessment loads, provenance block absent, no JS errors; Number Bloom answer submit passed",
+    "retainedEvidence": "Prior gameplay, assessment and typography tests unchanged except removed footer rendering"
+  },
+  "previousCopyReview": {
+    "checkedAt": "2026-10-29T08:36:52.902Z",
+    "sourceHash": "6269d2b44747231662499814bfa74512a4ad009a6d1b70d41ba8704e5505cc64"
+  },
+  "studentCopyRevision": {
+    "reportOpened": true,
+    "proceduralExplanationRemoved": true,
+    "scope": "Copy-only: gameplay and assessment logic unchanged. Prior gameplay/assessment evidence retained; current tests and build passed."
+  },
+  "previousJsonUiReview": {
+    "checkedAt": "2026-10-30T01:16:29.098Z",
+    "sourceHash": "f567d41618bb9173bf1c521956c330a4789267c11e1df0fe9f6ed358b7dbfbcd",
+    "export": true
+  },
+  "jsonUiRemoval": {
+    "status": "passed",
+    "checkedAt": "2026-10-30T06:16:46.888Z",
+    "scope": "JSON raw preview and download removed. Readable learning results and local progress storage retained. Gameplay, assessment grading and layout otherwise unchanged.",
+    "report": {
+      "id": "frost-cavern",
+      "report": true,
+      "noJson": true,
+      "exportButtons": 0,
+      "errors": []
+    },
+    "commonSubmission": {
+      "submitted": true,
+      "result": "내 답: 방정식",
+      "persistedAfterReload": true
+    }
+  }
+}
