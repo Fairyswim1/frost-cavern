@@ -1,7 +1,7 @@
 {
   "status": "passed",
-  "sourceHash": "f567d41618bb9173bf1c521956c330a4789267c11e1df0fe9f6ed358b7dbfbcd",
-  "checkedAt": "2026-10-30T01:16:29.098Z",
+  "sourceHash": "e3151897631e4b6411b45f68ed1760ac5e987aa26a48f8fca3ab8bdda84081a5",
+  "checkedAt": "2026-10-30T06:17:06.717Z",
   "browser": "Codex IAB / localhost:4173",
   "screenshots": [
     "evidence/frost-first-win.png",
@@ -87,7 +87,7 @@
     "retry": true,
     "persistence": true,
     "report": true,
-    "export": true,
+    "export": false,
     "mobile": true,
     "tasksSubmitted": 15,
     "attemptsBeforePrecisionCheck": 16,
@@ -106,7 +106,8 @@
     "precisionCheck": "최종 exact rational parser에서 2.00000000001 오답, 4/2 정답 및 재시도 분류 실제 확인",
     "newFormChangesNumbers": true,
     "syntheticOnly": true,
-    "consoleErrors": 0
+    "consoleErrors": 0,
+    "jsonUiRemoved": true
   },
   "typography": {
     "status": "passed",
@@ -224,5 +225,27 @@
     "reportOpened": true,
     "proceduralExplanationRemoved": true,
     "scope": "Copy-only: gameplay and assessment logic unchanged. Prior gameplay/assessment evidence retained; current tests and build passed."
+  },
+  "previousJsonUiReview": {
+    "checkedAt": "2026-10-30T01:16:29.098Z",
+    "sourceHash": "f567d41618bb9173bf1c521956c330a4789267c11e1df0fe9f6ed358b7dbfbcd",
+    "export": true
+  },
+  "jsonUiRemoval": {
+    "status": "passed",
+    "checkedAt": "2026-10-30T06:16:46.888Z",
+    "scope": "JSON raw preview and download removed. Readable learning results and local progress storage retained. Gameplay, assessment grading and layout otherwise unchanged.",
+    "report": {
+      "id": "frost-cavern",
+      "report": true,
+      "noJson": true,
+      "exportButtons": 0,
+      "errors": []
+    },
+    "commonSubmission": {
+      "submitted": true,
+      "result": "내 답: 방정식",
+      "persistedAfterReload": true
+    }
   }
 }

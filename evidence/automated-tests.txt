@@ -2,177 +2,177 @@ TAP version 13
 # Subtest: every advertised skill has three varied tasks per form; source pages are present
 ok 1 - every advertised skill has three varied tasks per form; source pages are present
   ---
-  duration_ms: 7.9115
+  duration_ms: 8.06
   ...
 # Subtest: factor parsing rejects composites, one, malformed powers, code and unbounded powers
 ok 2 - factor parsing rejects composites, one, malformed powers, code and unbounded powers
   ---
-  duration_ms: 1.1738
+  duration_ms: 0.9292
   ...
 # Subtest: GCD and LCM result and factorization process are both required, including coprime pairs
 ok 3 - GCD and LCM result and factorization process are both required, including coprime pairs
   ---
-  duration_ms: 0.8306
+  duration_ms: 0.5741
   ...
 # Subtest: incorrect, assisted, and retry successes cannot produce independent credit
 ok 4 - incorrect, assisted, and retry successes cannot produce independent credit
   ---
-  duration_ms: 4.0894
+  duration_ms: 2.5703
   ...
 # Subtest: new form supports remediation; exhausted forms do not mint fresh item ids
 ok 5 - new form supports remediation; exhausted forms do not mint fresh item ids
   ---
-  duration_ms: 0.4552
+  duration_ms: 0.2422
   ...
 # Subtest: independent evidence does not automatically grade explanations or formal completion
 ok 6 - independent evidence does not automatically grade explanations or formal completion
   ---
-  duration_ms: 1.2221
+  duration_ms: 0.7547
   ...
 # Subtest: plots reject swapped coordinates, missing points and extra points; blank is not zero
 ok 7 - plots reject swapped coordinates, missing points and extra points; blank is not zero
   ---
-  duration_ms: 0.7331
+  duration_ms: 0.4396
   ...
 # Subtest: comparison keys agree with independent arithmetic, including negative square roots
 ok 8 - comparison keys agree with independent arithmetic, including negative square roots
   ---
-  duration_ms: 0.9181
+  duration_ms: 0.6424
   ...
 # Subtest: 세 폼의 사칙계산·원리 과제와 정답·빈 입력·잘못된 과정
 ok 9 - 세 폼의 사칙계산·원리 과제와 정답·빈 입력·잘못된 과정
   ---
-  duration_ms: 7.9337
+  duration_ms: 7.2646
   ...
 # Subtest: 분수·음수·소수 입력과 0 분모 차단
 ok 10 - 분수·음수·소수 입력과 0 분모 차단
   ---
-  duration_ms: 0.3378
+  duration_ms: 0.3464
   ...
 # Subtest: 첫 오답 재시도·도움은 독립 성공으로 세지 않음
 ok 11 - 첫 오답 재시도·도움은 독립 성공으로 세지 않음
   ---
-  duration_ms: 3.8333
+  duration_ms: 3.9008
   ...
 # Subtest: 출제 정답을 별도 고정 계산으로 교차 확인
 ok 12 - 출제 정답을 별도 고정 계산으로 교차 확인
   ---
-  duration_ms: 0.5192
+  duration_ms: 0.4344
   ...
 # Subtest: 동일 내용을 새 문항으로 오인하지 않는 폼별 출제
 ok 13 - 동일 내용을 새 문항으로 오인하지 않는 폼별 출제
   ---
-  duration_ms: 1.2544
+  duration_ms: 0.2588
   ...
 # Subtest: 독립적으로 설계한 8개 승리 경로와 전수 탐색 모두 성공
 ok 14 - 독립적으로 설계한 8개 승리 경로와 전수 탐색 모두 성공
   ---
-  duration_ms: 34.8976
+  duration_ms: 36.5316
   ...
 # Subtest: 각 행동의 수학을 engine과 독립인 정수 분자·분모 계산으로 대조
 ok 15 - 각 행동의 수학을 engine과 독립인 정수 분자·분모 계산으로 대조
   ---
-  duration_ms: 0.6143
+  duration_ms: 0.6705
   ...
 # Subtest: 음수 뺄셈, 음수 곱셈, 분수 나눗셈과 0 나누기
 ok 16 - 음수 뺄셈, 음수 곱셈, 분수 나눗셈과 0 나누기
   ---
-  duration_ms: 0.3509
+  duration_ms: 0.3821
   ...
 # Subtest: 초반의 더하기 반복은 후반 에너지·행동 한도에서 실패
 ok 17 - 초반의 더하기 반복은 후반 에너지·행동 한도에서 실패
   ---
-  duration_ms: 0.234
+  duration_ms: 0.2425
   ...
 # Subtest: 보급 없이 직진하면 에너지 부족, 보급 우회하면 성공
 ok 18 - 보급 없이 직진하면 에너지 부족, 보급 우회하면 성공
   ---
-  duration_ms: 0.235
+  duration_ms: 0.2347
   ...
 # Subtest: 보호막 준비 비용과 복구 행동의 실제 교환
 ok 19 - 보호막 준비 비용과 복구 행동의 실제 교환
   ---
-  duration_ms: 0.835
+  duration_ms: 0.8576
   ...
 # Subtest: 문만 맞추던 전략은 진입 냉기로 패배
 ok 20 - 문만 맞추던 전략은 진입 냉기로 패배
   ---
-  duration_ms: 0.1973
+  duration_ms: 0.195
   ...
 # Subtest: 마지막 탐사의 보호 경로와 무보호 복구 경로를 결합 검증
 ok 21 - 마지막 탐사의 보호 경로와 무보호 복구 경로를 결합 검증
   ---
-  duration_ms: 0.3823
+  duration_ms: 0.3957
   ...
 # Subtest: 되돌리기용 이전 상태가 손상되지 않고 거절은 자원 미차감
 ok 22 - 되돌리기용 이전 상태가 손상되지 않고 거절은 자원 미차감
   ---
-  duration_ms: 0.4675
+  duration_ms: 0.4673
   ...
 # Subtest: 마지막 행동에서 탈출은 성공, 중간에서 소진하면 패배
 ok 23 - 마지막 행동에서 탈출은 성공, 중간에서 소진하면 패배
   ---
-  duration_ms: 0.4688
+  duration_ms: 0.4702
   ...
 # Subtest: 9~12 추가 탐사의 독립 설계 경로와 전수 탐색
 ok 24 - 9~12 추가 탐사의 독립 설계 경로와 전수 탐색
   ---
-  duration_ms: 7.0274
+  duration_ms: 6.6986
   ...
 # Subtest: 적은 보급을 고르면 계산 도구 비용이 부족해진다
 ok 25 - 적은 보급을 고르면 계산 도구 비용이 부족해진다
   ---
-  duration_ms: 0.2568
+  duration_ms: 0.2363
   ...
 # Subtest: 약한 냉기에 보호막을 쓰면 강한 냉기와 행동 한도를 함께 감당하지 못한다
 ok 26 - 약한 냉기에 보호막을 쓰면 강한 냉기와 행동 한도를 함께 감당하지 못한다
   ---
-  duration_ms: 0.2109
+  duration_ms: 0.2115
   ...
 # Subtest: 마지막 탐사는 분수 계산과 보호막을 결합한다
 ok 27 - 마지막 탐사는 분수 계산과 보호막을 결합한다
   ---
-  duration_ms: 0.2848
+  duration_ms: 0.2706
   ...
 # Subtest: muted effects never start; enable, play and mute stop active oscillators
 ok 28 - muted effects never start; enable, play and mute stop active oscillators
   ---
-  duration_ms: 3.0869
+  duration_ms: 2.6991
   ...
 # Subtest: preference survives new controller and test checks a generated waveform
 ok 29 - preference survives new controller and test checks a generated waveform
   ---
-  duration_ms: 89.3569
+  duration_ms: 91.4311
   ...
 # Subtest: blocked playback returns an error instead of falsely reporting enabled sound
 ok 30 - blocked playback returns an error instead of falsely reporting enabled sound
   ---
-  duration_ms: 0.4979
+  duration_ms: 0.539
   ...
 # Subtest: muting while resume is pending cannot re-enable playback
 ok 31 - muting while resume is pending cannot re-enable playback
   ---
-  duration_ms: 0.2733
+  duration_ms: 0.2882
   ...
 # Subtest: unavailable storage does not prevent sound playback
 ok 32 - unavailable storage does not prevent sound playback
   ---
-  duration_ms: 0.2888
+  duration_ms: 0.3006
   ...
 # Subtest: first visit uses isolated practice state and leaves existing progress untouched
 ok 33 - first visit uses isolated practice state and leaves existing progress untouched
   ---
-  duration_ms: 3.614
+  duration_ms: 3.2465
   ...
 # Subtest: skip and replay are per game and replay cannot overwrite learning records
 ok 34 - skip and replay are per game and replay cannot overwrite learning records
   ---
-  duration_ms: 0.7692
+  duration_ms: 0.4798
   ...
 # Subtest: storage denied can still skip without a redirect loop
 ok 35 - storage denied can still skip without a redirect loop
   ---
-  duration_ms: 0.376
+  duration_ms: 0.2605
   ...
 1..35
 # tests 35
@@ -182,4 +182,4 @@ ok 35 - storage denied can still skip without a redirect loop
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 254.3262
+# duration_ms 232.9983

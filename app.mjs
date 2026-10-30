@@ -5,7 +5,7 @@ import {bindSoundControls} from './sound.mjs';
 const effects=bindSoundControls('frost-cavern:effects:v1');
 import {levels} from './levels.mjs';import {initial,step,fmt,VERSION} from './engine.mjs';
 const $=s=>document.querySelector(s),key='frost-cavern-v1';let saved={stars:{},last:0,events:[]};try{saved={...saved,...JSON.parse(gameStorage.getItem(key)||'{}')}}catch{}let i=0,s,history=[],helped=false,undone=false,run='';
-const save=()=>{try{gameStorage.setItem(key,JSON.stringify(saved))}catch{$('#feedback').textContent='기기 저장 공간이 부족해요. 기록을 내보내 주세요.'}};
+const save=()=>{try{gameStorage.setItem(key,JSON.stringify(saved))}catch{$('#feedback').textContent='진행을 저장하지 못했어요. 기기 저장 공간을 확인해 주세요.'}};
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const icon=(n)=>{const x=n%2*627,y=Math.floor(n/2)*627;return '<span class="sprite" aria-hidden="true"><svg viewBox="'+x+' '+y+' 627 627"><image href="assets/atlas.png" width="1254" height="1254"/></svg></span>'};
 function log(action,before,after,accepted=true){saved.events.push({at:new Date().toISOString(),version:VERSION,run,stage:i+1,action,before:structuredClone(before),after:structuredClone(after),accepted});save();}
@@ -25,7 +25,7 @@ $('#result').innerHTML='';if(s.status==='won'){const stars=1+Number(!helped)+Num
 $('#log').innerHTML=saved.events.slice(-30).map(e=>'<li>탐사 '+e.stage+' · '+esc(e.action.kind)+' · 온도 '+fmt(e.before?.temp??0)+' → '+fmt(e.after?.temp??0)+' · 에너지 '+(e.before?.energy??0)+' → '+(e.after?.energy??0)+(e.accepted?'':' · 실행 안 됨')+'</li>').join('');}
 function lobby(){$('#play').hidden=true;$('#lobby').hidden=false;$('#stages').innerHTML=levels.map((l,n)=>'<button data-level="'+n+'">'+(n+1)+'. '+l.name+'<small>'+('★'.repeat(saved.stars[n]||0)||'새로운 탐사')+'</small></button>').join('');for(const b of $('#stages').querySelectorAll('button'))b.onclick=()=>start(Number(b.dataset.level));}
 $('#learn').onclick=()=>start(0);$('#resume').onclick=()=>start(Math.min(levels.length-1,saved.last||0));$('#back').onclick=lobby;$('#restart').onclick=()=>start(i);$('#shield').onclick=()=>act({kind:'shield'});$('#undo').onclick=()=>{if(!history.length)return;const before=s;s=history.pop();undone=true;log({kind:'undo'},before,s);draw()};$('#hint').onclick=()=>{helped=true;$('#hint-text').hidden=false;log({kind:'hint'},s,s)};
-$('#export-play').onclick=()=>{const blob=new Blob([JSON.stringify({game:'frost-cavern',officialCompletion:false,...saved},null,2)],{type:'application/json'}),a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='frost-cavern-play.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)};lobby();
+lobby();
 
 mountTutorial(tourContext,{title:'서리 동굴',begin:()=>start(0),steps:[
 {target:'#map',title:'문을 열고 보물을 찾아요',body:'길에 적힌 온도와 내 온도가 같아야 이동할 수 있어요. 보물을 챙겨 출구로 가면 성공이에요.'},
