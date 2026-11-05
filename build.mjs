@@ -8,3 +8,5 @@ console.log('Built standalone Vercel files');
 
 for(const f of ['math-display.mjs','math-display.css','math-setup.mjs'])await copyFile(f,'dist/'+f);
 await cp('vendor','dist/vendor',{recursive:true});
+
+for(const f of ['music.mjs','music.css'])await copyFile(f,'dist/'+f);

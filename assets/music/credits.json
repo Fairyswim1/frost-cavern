@@ -1,0 +1,42 @@
+{
+  "title": "얼음 속 메아리",
+  "origin": "Original synthesized stereo compositions; no third-party samples",
+  "profile": {
+    "title": "얼음 속 메아리",
+    "root": 62,
+    "bpm": 62,
+    "color": "glass",
+    "minor": true,
+    "motif": [
+      12,
+      7,
+      3,
+      0,
+      7,
+      10,
+      5,
+      3
+    ]
+  },
+  "generator": "scripts/compose-music.py",
+  "tracks": [
+    {
+      "mode": "focus",
+      "bpm": 62,
+      "seconds": 61.93546485260771,
+      "peak": 0.2523064130155155,
+      "rms": 0.06134407922210552,
+      "seamDelta": 0.012318198345424513,
+      "sha256": "638a37a0cbc08a91faa04efe7327312231573fc9bd8dc2342a70ac59dcbe5ba3"
+    },
+    {
+      "mode": "energy",
+      "bpm": 86,
+      "seconds": 44.651156462585035,
+      "peak": 0.3657655727639799,
+      "rms": 0.07288648667253875,
+      "seamDelta": 0.003321774750170259,
+      "sha256": "222e22c3782488fabcde98254c69578aa945b6241ea5f071e709f3b20002cc2f"
+    }
+  ]
+}
