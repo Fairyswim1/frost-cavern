@@ -1,11 +1,12 @@
 {
   "status": "passed",
   "checkedAt": "2026-10-30T07:51:42.754Z",
-  "sourceHash": "cf13921c8f2b65574e33c4e224a80730ab57c4fda3651b6b28049aabcb175e07",
+  "sourceHash": "c011bd4c57a0d30c5b86c7ac4e107165eccfecfe99482900aeb2d170a613ef2c",
   "screenshots": [
     "evidence/math-frost-cavern-desktop.png",
     "evidence/math-frost-cavern-mobile.png",
-    "evidence/math-frost-cavern-assessment.png"
+    "evidence/math-frost-cavern-assessment.png",
+    "evidence/first-visit-mobile.png"
   ],
   "checks": [
     "All stage starting layouts checked at 390px; desktop final-stage screenshot inspected.",
@@ -88,5 +89,17 @@
     "musicMenuInBounds": true,
     "consoleErrors": [],
     "scope": "Audio-only change. Previous full gameplay/assessment verification retained; all automated gameplay tests rerun."
+  },
+  "firstVisitRevision": {
+    "checkedAt": "2026-11-06T04:44:49.128Z",
+    "id": "frost-cavern",
+    "firstVisitOff": true,
+    "startedStep": "문을 열고 보물을 찾아요",
+    "skipCleanUrl": true,
+    "reloadNoTour": true,
+    "replay": true,
+    "mobileWidth": 390,
+    "previousSourceHash": "cf13921c8f2b65574e33c4e224a80730ab57c4fda3651b6b28049aabcb175e07",
+    "scope": "First-visit decision, isolated tutorial initialization, exit/reload and replay. Prior math and assessment browser evidence retained; existing automated suites rerun."
   }
 }

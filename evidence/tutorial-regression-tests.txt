@@ -1,0 +1,265 @@
+TAP version 13
+# Subtest: every advertised skill has three varied tasks per form; source pages are present
+ok 1 - every advertised skill has three varied tasks per form; source pages are present
+  ---
+  duration_ms: 7.175
+  ...
+# Subtest: factor parsing rejects composites, one, malformed powers, code and unbounded powers
+ok 2 - factor parsing rejects composites, one, malformed powers, code and unbounded powers
+  ---
+  duration_ms: 1.6023
+  ...
+# Subtest: GCD and LCM result and factorization process are both required, including coprime pairs
+ok 3 - GCD and LCM result and factorization process are both required, including coprime pairs
+  ---
+  duration_ms: 0.8489
+  ...
+# Subtest: incorrect, assisted, and retry successes cannot produce independent credit
+ok 4 - incorrect, assisted, and retry successes cannot produce independent credit
+  ---
+  duration_ms: 3.971
+  ...
+# Subtest: new form supports remediation; exhausted forms do not mint fresh item ids
+ok 5 - new form supports remediation; exhausted forms do not mint fresh item ids
+  ---
+  duration_ms: 0.4019
+  ...
+# Subtest: independent evidence does not automatically grade explanations or formal completion
+ok 6 - independent evidence does not automatically grade explanations or formal completion
+  ---
+  duration_ms: 1.1793
+  ...
+# Subtest: plots reject swapped coordinates, missing points and extra points; blank is not zero
+ok 7 - plots reject swapped coordinates, missing points and extra points; blank is not zero
+  ---
+  duration_ms: 0.7239
+  ...
+# Subtest: comparison keys agree with independent arithmetic, including negative square roots
+ok 8 - comparison keys agree with independent arithmetic, including negative square roots
+  ---
+  duration_ms: 0.7111
+  ...
+# Subtest: 세 폼의 사칙계산·원리 과제와 정답·빈 입력·잘못된 과정
+ok 9 - 세 폼의 사칙계산·원리 과제와 정답·빈 입력·잘못된 과정
+  ---
+  duration_ms: 6.3051
+  ...
+# Subtest: 분수·음수·소수 입력과 0 분모 차단
+ok 10 - 분수·음수·소수 입력과 0 분모 차단
+  ---
+  duration_ms: 0.3236
+  ...
+# Subtest: 첫 오답 재시도·도움은 독립 성공으로 세지 않음
+ok 11 - 첫 오답 재시도·도움은 독립 성공으로 세지 않음
+  ---
+  duration_ms: 2.8869
+  ...
+# Subtest: 출제 정답을 별도 고정 계산으로 교차 확인
+ok 12 - 출제 정답을 별도 고정 계산으로 교차 확인
+  ---
+  duration_ms: 0.5433
+  ...
+# Subtest: 동일 내용을 새 문항으로 오인하지 않는 폼별 출제
+ok 13 - 동일 내용을 새 문항으로 오인하지 않는 폼별 출제
+  ---
+  duration_ms: 1.315
+  ...
+# Subtest: 독립적으로 설계한 8개 승리 경로와 전수 탐색 모두 성공
+ok 14 - 독립적으로 설계한 8개 승리 경로와 전수 탐색 모두 성공
+  ---
+  duration_ms: 41.4153
+  ...
+# Subtest: 각 행동의 수학을 engine과 독립인 정수 분자·분모 계산으로 대조
+ok 15 - 각 행동의 수학을 engine과 독립인 정수 분자·분모 계산으로 대조
+  ---
+  duration_ms: 0.7866
+  ...
+# Subtest: 음수 뺄셈, 음수 곱셈, 분수 나눗셈과 0 나누기
+ok 16 - 음수 뺄셈, 음수 곱셈, 분수 나눗셈과 0 나누기
+  ---
+  duration_ms: 0.4458
+  ...
+# Subtest: 초반의 더하기 반복은 후반 에너지·행동 한도에서 실패
+ok 17 - 초반의 더하기 반복은 후반 에너지·행동 한도에서 실패
+  ---
+  duration_ms: 0.3842
+  ...
+# Subtest: 보급 없이 직진하면 에너지 부족, 보급 우회하면 성공
+ok 18 - 보급 없이 직진하면 에너지 부족, 보급 우회하면 성공
+  ---
+  duration_ms: 0.3366
+  ...
+# Subtest: 보호막 준비 비용과 복구 행동의 실제 교환
+ok 19 - 보호막 준비 비용과 복구 행동의 실제 교환
+  ---
+  duration_ms: 1.0761
+  ...
+# Subtest: 문만 맞추던 전략은 진입 냉기로 패배
+ok 20 - 문만 맞추던 전략은 진입 냉기로 패배
+  ---
+  duration_ms: 0.2827
+  ...
+# Subtest: 마지막 탐사의 보호 경로와 무보호 복구 경로를 결합 검증
+ok 21 - 마지막 탐사의 보호 경로와 무보호 복구 경로를 결합 검증
+  ---
+  duration_ms: 0.5233
+  ...
+# Subtest: 되돌리기용 이전 상태가 손상되지 않고 거절은 자원 미차감
+ok 22 - 되돌리기용 이전 상태가 손상되지 않고 거절은 자원 미차감
+  ---
+  duration_ms: 0.4849
+  ...
+# Subtest: 마지막 행동에서 탈출은 성공, 중간에서 소진하면 패배
+ok 23 - 마지막 행동에서 탈출은 성공, 중간에서 소진하면 패배
+  ---
+  duration_ms: 0.4735
+  ...
+# Subtest: 9~12 추가 탐사의 독립 설계 경로와 전수 탐색
+ok 24 - 9~12 추가 탐사의 독립 설계 경로와 전수 탐색
+  ---
+  duration_ms: 6.8216
+  ...
+# Subtest: 적은 보급을 고르면 계산 도구 비용이 부족해진다
+ok 25 - 적은 보급을 고르면 계산 도구 비용이 부족해진다
+  ---
+  duration_ms: 0.2077
+  ...
+# Subtest: 약한 냉기에 보호막을 쓰면 강한 냉기와 행동 한도를 함께 감당하지 못한다
+ok 26 - 약한 냉기에 보호막을 쓰면 강한 냉기와 행동 한도를 함께 감당하지 못한다
+  ---
+  duration_ms: 0.2045
+  ...
+# Subtest: 마지막 탐사는 분수 계산과 보호막을 결합한다
+ok 27 - 마지막 탐사는 분수 계산과 보호막을 결합한다
+  ---
+  duration_ms: 0.2719
+  ...
+# Subtest: Fractions bind only their denominator, preserving rational coefficients and signs
+ok 28 - Fractions bind only their denominator, preserving rational coefficients and signs
+  ---
+  duration_ms: 1.0758
+  ...
+# Subtest: Math renders decimals, powers, coordinates, comparisons and operations without changing original source
+ok 29 - Math renders decimals, powers, coordinates, comparisons and operations without changing original source
+  ---
+  duration_ms: 13.1936
+  ...
+# Subtest: Text and unsafe input are escaped; no HTML commands are accepted
+ok 30 - Text and unsafe input are escaped; no HTML commands are accepted
+  ---
+  duration_ms: 0.3173
+  ...
+# Subtest: Every actual prompt, hint and choice preserves its text across all three variants
+ok 31 - Every actual prompt, hint and choice preserves its text across all three variants
+  ---
+  duration_ms: 12.772
+  ...
+# Subtest: Blank symbols and incomplete learner notation stay readable
+ok 32 - Blank symbols and incomplete learner notation stay readable
+  ---
+  duration_ms: 0.8642
+  ...
+# Subtest: music starts only after explicit play; loops and resumes without resetting position
+ok 33 - music starts only after explicit play; loops and resumes without resetting position
+  ---
+  duration_ms: 2.025
+  ...
+# Subtest: mode change preserves playing state and writes only preferences
+ok 34 - mode change preserves playing state and writes only preferences
+  ---
+  duration_ms: 2.4414
+  ...
+# Subtest: saved mode and volume load without autoplay
+ok 35 - saved mode and volume load without autoplay
+  ---
+  duration_ms: 0.4255
+  ...
+# Subtest: invalid preferences and modes cannot select arbitrary sources
+ok 36 - invalid preferences and modes cannot select arbitrary sources
+  ---
+  duration_ms: 0.3009
+  ...
+# Subtest: blocked playback exposes recovery without claiming playback
+ok 37 - blocked playback exposes recovery without claiming playback
+  ---
+  duration_ms: 0.2692
+  ...
+# Subtest: pause cancels a pending play state update
+ok 38 - pause cancels a pending play state update
+  ---
+  duration_ms: 0.2323
+  ...
+# Subtest: older play completion cannot silence the newer request
+ok 39 - older play completion cannot silence the newer request
+  ---
+  duration_ms: 0.2508
+  ...
+# Subtest: muted effects never start; enable, play and mute stop active oscillators
+ok 40 - muted effects never start; enable, play and mute stop active oscillators
+  ---
+  duration_ms: 3.0332
+  ...
+# Subtest: preference survives new controller and test checks a generated waveform
+ok 41 - preference survives new controller and test checks a generated waveform
+  ---
+  duration_ms: 82.3162
+  ...
+# Subtest: blocked playback returns an error instead of falsely reporting enabled sound
+ok 42 - blocked playback returns an error instead of falsely reporting enabled sound
+  ---
+  duration_ms: 0.4892
+  ...
+# Subtest: muting while resume is pending cannot re-enable playback
+ok 43 - muting while resume is pending cannot re-enable playback
+  ---
+  duration_ms: 0.2813
+  ...
+# Subtest: unavailable storage does not prevent sound playback
+ok 44 - unavailable storage does not prevent sound playback
+  ---
+  duration_ms: 0.3903
+  ...
+# Subtest: first visit always starts, including an old shared off URL
+ok 45 - first visit always starts, including an old shared off URL
+  ---
+  duration_ms: 2.2475
+  ...
+# Subtest: opening, abandoning, and refreshing do not mark the guide finished
+ok 46 - opening, abandoning, and refreshing do not mark the guide finished
+  ---
+  duration_ms: 1.4644
+  ...
+# Subtest: completion and explicit skip persist per game, with a clean shareable URL
+ok 47 - completion and explicit skip persist per game, with a clean shareable URL
+  ---
+  duration_ms: 3.3025
+  ...
+# Subtest: old valid completion is preserved; corrupt or started records do not skip
+ok 48 - old valid completion is preserved; corrupt or started records do not skip
+  ---
+  duration_ms: 0.6524
+  ...
+# Subtest: replay and practice never overwrite campaign or assessment records
+ok 49 - replay and practice never overwrite campaign or assessment records
+  ---
+  duration_ms: 0.4395
+  ...
+# Subtest: blocked local storage uses session completion without a redirect loop
+ok 50 - blocked local storage uses session completion without a redirect loop
+  ---
+  duration_ms: 0.4876
+  ...
+# Subtest: both storage APIs blocked: same-tab history survives reload but shared URL does not skip
+ok 51 - both storage APIs blocked: same-tab history survives reload but shared URL does not skip
+  ---
+  duration_ms: 0.4909
+  ...
+1..51
+# tests 51
+# suites 0
+# pass 51
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 254.2109
